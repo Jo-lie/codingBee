@@ -70,5 +70,5 @@ class TestSolutions(unittest.TestCase):
         self.assertEqual(expect, g.solve())
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main()
 
