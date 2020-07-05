@@ -9,5 +9,5 @@ def solve():
             n = n + 1
             h = (n % 2) + 1
             result = result + str(h)
-        result = result + '\n'
+        result = result + nl
     return result

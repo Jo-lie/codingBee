@@ -8,5 +8,5 @@ def solve():
         for y in range(0, 3):
             n = n - 1
             result = result + str(n)
-        result = result + '\n'
+        result = result + nl
     return result
