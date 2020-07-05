@@ -1,6 +1,7 @@
 import unittest
+import os
 
-nl='\n'
+nl=os.linesep
 
 class TestSolutions(unittest.TestCase):
 

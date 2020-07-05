@@ -1,3 +1,6 @@
+import os
+nl=os.linesep
+
 def solve():
     result=''
     n = 10
