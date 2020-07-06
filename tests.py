@@ -98,11 +98,11 @@ class TestSolutions(unittest.TestCase):
         from solutions import i
         print('EXERCISE I')
         print("print the first 5 lines of the pascal's triangle.")
-        expect='1  ' + nl +
-               '1 1  ' + nl +
-               '1 2 1' + nl +
-               '1 3 3 1' + nl +
-               '1 4 6 4 1' + nl
+        expect=('1  ' + nl +
+                '1 1  ' + nl +
+                '1 2 1' + nl +
+                '1 3 3 1' + nl +
+                '1 4 6 4 1' + nl)
         self.assertEqual(i.solve(), expect)
         
     def test_solution_j(self):
