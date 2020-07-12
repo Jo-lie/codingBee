@@ -1,5 +1,8 @@
 
+# ignore final ending 
 *.pyc
 __pycache__
 
+# ignore those directories 
 lookup/*
+.idea/*
