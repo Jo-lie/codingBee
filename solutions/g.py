@@ -3,12 +3,11 @@ nl=os.linesep
 
 def solve():
     result = ''
-    number = [1,1,1,1,1,0,1,1,1,1]
-    for x in range number:
+    for x in range(0,3):
         for y in range(0,3):
-            if x > 1:
-                result = 1
+            if x == 1 and y == 1:
+                result = result + str(0)
             else:
-                result = 0
-            result = result + str(y)
-        return result
+                result = result + str(1)
+        result = result + nl
+    return result
